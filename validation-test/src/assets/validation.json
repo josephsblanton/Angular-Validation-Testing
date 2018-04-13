@@ -1,0 +1,13 @@
+{
+    "submissionId": {
+        "required": "this field is required",
+        "method": "logMessage"
+    },
+    "base-test-field" : {
+        "validators": [
+            "validator_moreThanZero",
+            "validator_lessThan100",
+            "validator_numeric"
+        ]
+    }
+}
