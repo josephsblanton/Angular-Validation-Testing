@@ -1,0 +1,158 @@
+{
+    "pageId": "base",
+    "pageTitle": "Base",
+    "lobId": "",
+    "sections": [
+        {
+            "sectionId": "section1",
+            "sectionTitle": "Section One",
+            "autoOpen": "true",
+            "content": [
+                {
+                    "rid": "field1",
+                    "type": "input",
+                    "required": "true",
+                    "maxlength": "20",
+                    "minlength": "5",
+                    "group": "false",
+                    "classes": [
+                        "col-xs-12",
+                        "col-sm-8",
+                        "col-md-8",
+                        "col-lg-4"
+                    ],
+                    "validators": [
+                        {
+                            "name": "overValue",
+                            "params": [
+                                "50"
+                            ]
+                        },
+                        {
+                            "name": "underValue",
+                            "params": [
+                                "100"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "rid": "field2",
+                    "type": "textarea",
+                    "required": "true",
+                    "maxlength": "20",
+                    "minlength": "5",
+                    "group": "false",
+                    "classes": [
+                        "col-xs-12",
+                        "col-sm-8",
+                        "col-md-8",
+                        "col-lg-4"
+                    ],
+                    "validators": [
+                        {
+                            "name": "overValue",
+                            "params": [
+                                "50"
+                            ]
+                        },
+                        {
+                            "name": "underValue",
+                            "params": [
+                                "100"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sectionId": "section2",
+                    "sectionTitle": "Section Two",
+                    "autoOpen": "true",
+                    "content": [
+                        {
+                            "rid": "field3",
+                            "type": "checkbox",
+                            "checkboxes": [
+                                {
+                                    "value": "true",
+                                    "label": "True",
+                                    "checked": "true"
+                                },
+                                {
+                                    "value": "false",
+                                    "label": "False"
+                                }
+                            ],
+                            "required": "true",
+                            "maxlength": "20",
+                            "minlength": "5",
+                            "group": "false",
+                            "classes": [
+                                "col-xs-12",
+                                "col-sm-8",
+                                "col-md-8",
+                                "col-lg-4"
+                            ],
+                            "validators": [
+                                {
+                                    "name": "overValue",
+                                    "params": [
+                                        "50"
+                                    ]
+                                },
+                                {
+                                    "name": "underValue",
+                                    "params": [
+                                        "100"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "rid": "field4",
+                            "type": "select",
+                            "renderType": "dropdown",
+                            "options": [
+                                {
+                                    "value": "1",
+                                    "label": "One",
+                                    "selected": "false"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "Two",
+                                    "selected": "true"
+                                }
+                            ],
+                            "required": "true",
+                            "maxlength": "20",
+                            "minlength": "5",
+                            "group": "false",
+                            "classes": [
+                                "col-xs-12",
+                                "col-sm-8",
+                                "col-md-8",
+                                "col-lg-4"
+                            ],
+                            "validators": [
+                                {
+                                    "name": "overValue",
+                                    "params": [
+                                        "50"
+                                    ]
+                                },
+                                {
+                                    "name": "underValue",
+                                    "params": [
+                                        "100"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+        
